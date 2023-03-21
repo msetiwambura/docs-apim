@@ -2,7 +2,7 @@
 This example demonstrates how to use a simple proxy service to expose a back-end service. In this example, a request received by the proxy service is forwarded to the sample service hosted in the backend.
 
 ## Synapse configuration
-Following is a sample proxy service configuration that we can used to implement this scenario. See the instructions on how to [build and run](#build-and-run) this example.
+Following is a sample proxy service configuration that we can use to implement this scenario. See the instructions on how to [build and run](#build-and-run) this example.
 
 An `inSequence` or `endpoint` or both of these would decide how the message would be handled after the proxy service receives the message. The
 `outSequence` defines how the response is handled before it is sent back to the client.
